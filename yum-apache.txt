@@ -1,5 +1,5 @@
 #!/bin/bash
-yum update -y
+yum update
 yum install httpd -y
 service httpd start
 cd /var/www/html
